@@ -12,7 +12,7 @@ export class AppController {
     var connection = mysql.createConnection({
       host: 'localhost',
       user: 'azure',
-      password: '6#vWHD_$',
+      password: process.env.USER_KEY, //'6#vWHD_$',
       database: 'localdb',
     });
 
@@ -25,7 +25,7 @@ export class AppController {
         console.log('The solution is: ', results[0].solution);
       },
     );
-
+    console.log(process.env.USER_KEY);
     connection.end();
     return "test 1";
 
