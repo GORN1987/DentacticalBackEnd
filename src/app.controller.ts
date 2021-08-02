@@ -13,7 +13,7 @@ export class AppController {
       host: 'localhost',
       user: 'azure',
       port: 53046,
-      password: process.env.USER_KEY, //'6#vWHD_$',
+      password: process.env.USER_KEY,
       database: 'localdb',
     });
 
