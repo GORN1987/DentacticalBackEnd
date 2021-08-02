@@ -11,7 +11,7 @@ export class AppController {
     var mysql = require('mysql');
     var connection = mysql.createConnection({
       host: '127.0.0.1',
-      user: 'azure',
+      user: 'azure@localhost',
       port: 53046,
       password: process.env.USER_KEY,
       database: 'localdb',
