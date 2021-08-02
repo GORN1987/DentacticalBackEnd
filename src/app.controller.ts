@@ -12,6 +12,7 @@ export class AppController {
     var connection = mysql.createConnection({
       host: 'localhost',
       user: 'azure',
+      port: 53046,
       password: process.env.USER_KEY, //'6#vWHD_$',
       database: 'localdb',
     });
