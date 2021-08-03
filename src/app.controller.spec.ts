@@ -14,9 +14,9 @@ describe('AppController', () => {
     appController = app.get<AppController>(AppController);
   });
 
-  describe('root', () => {
+  /*describe('root', () => {
     it('should return "test 1"', () => {
       expect(appController.getHello()).toBe('test 1');
     });
-  });
+  });*/
 });
