@@ -17,7 +17,7 @@ export class AppController {
       database: 'localdb',
     });
 
-    connection.connect();
+    /*connection.connect();
 
     connection.query(
       'SELECT 1 + 1 AS solution',
@@ -27,7 +27,7 @@ export class AppController {
       },
     );
     console.log(process.env.USER_KEY);
-    connection.end();
+    connection.end();*/
     return "test 1";
 
   }
